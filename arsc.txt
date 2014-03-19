@@ -1,0 +1,39 @@
+﻿head table: 00 00 0000
+pkgCount: 0000 
+chunk_type: 0000
+chunk_size: 0000
+String_count:0000 (值为71)
+style_offset_count: 0000
+flags: 0000
+stringsOffset:0000
+stylesOffset:0000
+m_stringOffsets string_count个内容：71 * 4
+m_strings: chunk_size - stringsOffset: 3636   3960
+
+chunk head package: 0000 0000
+id: 0000			3972
+name: 128 * 2
+skip: 4 * 4			4244
+
+===mTypeNames
+skip: 0000
+chunSize: 0000
+stringCount: 0000
+styleOffsetCount: 0000
+flags: 0000
+stringsOffset: 0000
+stylesOffset: 0000
+m_stringOffsets: string_count内容: 10 * 4
+m_strings: 140
+
+
+==mSpecNames
+
+next_chunk: 00 00 0000		9948
+
+==不断循环read type:
+id: 0 000
+entryCount:0000
+skip: entryCount * 4
+
+next_chunk: 00 00 0000	9964
